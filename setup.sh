@@ -10,4 +10,4 @@ sudo docker exec $CONTAINER_NAME cat /etc/hosts
 
 echo "Check whether mysql host is surely getting up and you can connect as 'attacker' with the following command or not:"
 echo "mysql -h {IP ADDRESS} -u attacker -p"
-echo "\t{IP ADDRESS} should be like 172.xx.0.2"
+echo "  {IP ADDRESS} should be like 172.xx.0.2"
